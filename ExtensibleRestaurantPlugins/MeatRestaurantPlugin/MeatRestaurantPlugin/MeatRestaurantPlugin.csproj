@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ExtensibleRestaurant.Api">
+      <HintPath>..\..\..\ExtensibleRestaurant\ExtensibleRestaurant\ExtensibleRestaurant.Api\bin\Debug\netcoreapp3.1\ExtensibleRestaurant.Api.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

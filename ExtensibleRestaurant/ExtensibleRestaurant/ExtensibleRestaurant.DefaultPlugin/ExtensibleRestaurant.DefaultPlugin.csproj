@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\dev\ExtensibleRestaurant\ExtensibleRestaurant\ExtensibleRestaurant.Core.Client\bin\Debug\netcoreapp3.1\Plugins\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExtensibleRestaurant.Api\ExtensibleRestaurant.Api.csproj" />
+  </ItemGroup>
+
+</Project>
